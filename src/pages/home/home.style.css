@@ -2,6 +2,8 @@
 *{
     margin: 0;
     padding: 0;
+    border: none;
+    outline: none;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -16,17 +18,16 @@ header{
     background-color: blue;
 
     .interface{
-        max-width: 1280px;
         margin: auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        .logo{
+            padding: 0 50px;
+        }
     
         .menu-desktop {
-            /* width: 1000px; */
-            /* margin-left: 100px; */
-            /* justify-items: end; */   
-            /* background-color: black; */
             ul {        
                 list-style-type: none;
                 
@@ -37,12 +38,15 @@ header{
                     a {
                         color: white;  
                         text-decoration: none;
-                        font-size: 20px;  
+                        font-weight: 900;
+                        font-size: 30px; 
                         display: inline-block;
                         transition: .2s;
+                        -webkit-text-stroke-color: black;
+                        -webkit-text-stroke-width: 1.5px;
                    }
                    a:hover{
-                    color: black;
+                    color: rgb(124, 124, 124);
                     transform: scale(1.05);
                 }
                 }
