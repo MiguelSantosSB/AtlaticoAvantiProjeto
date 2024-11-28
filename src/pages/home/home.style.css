@@ -7,12 +7,10 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 body {
-    background-color: white;
+    background-color: #EEECEC;
     height: 100%;
 }
-
 header{
     padding: 30px 4%;
     background-color: blue;
@@ -48,7 +46,49 @@ header{
                    a:hover{
                     color: rgb(124, 124, 124);
                     transform: scale(1.05);
+                    }
                 }
+            }
+        }
+    }
+}
+main{
+    .topo-home{
+        .interface{
+            .txt-topo-home{
+                padding-top: 90px;
+                h1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 800;
+                    font-size: 35px; 
+                    padding-bottom: 20px;
+                    color: white;
+                    -webkit-text-stroke-color: black;
+                    -webkit-text-stroke-width: 1.5px;
+                }   
+                h2{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 700;
+                    font-size: 35px; 
+                    padding-bottom: 20px;   
+                    color: white;
+                    -webkit-text-stroke-color: black;
+                    -webkit-text-stroke-width: 1.5px;
+                }
+                p{
+                    margin: auto;
+                    width: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 400;
+                    font-size: 25px; 
+                    text-indent: 50px;
+                    width: 60%;
                 }
             }
         }
